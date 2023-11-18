@@ -515,3 +515,8 @@
   background-color: #fff;
   color: #555;
 }
+
+.cta *:focus {
+  outline: 4px solid rgb(253, 241, 232, 0.5);
+  outline-offset: 0.1rem;
+}

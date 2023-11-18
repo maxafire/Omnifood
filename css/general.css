@@ -214,3 +214,8 @@ strong {
   height: 3rem;
   color: #e67e22;
 }
+
+*:focus{
+  outline: 4px solid #e67e22;
+  outline-offset: 0.1rem;
+}
