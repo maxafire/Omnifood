@@ -24,7 +24,7 @@ Primary: #e67e22
 Tints: #fdf2e9 #fae5d3 #eb984e
 Shades: #cf711f #b8651b #45260a
 Accents:
-Grays: #555 #888 #333 #6f6f6f 
+Grays: #555 #333 #888 #767676 #6f6f6f
 
 --- 03 SHADOWS ---
 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
@@ -81,6 +81,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
@@ -215,7 +219,7 @@ strong {
   color: #e67e22;
 }
 
-*:focus{
+*:focus {
   outline: 4px solid #e67e22;
   outline-offset: 0.1rem;
 }
