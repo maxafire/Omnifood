@@ -35,3 +35,25 @@ allLinks.forEach((link) => {
     }
   });
 });
+
+// Sticky navigation
+const sectionHeroEl = document.querySelector(".section-hero");
+const obs = new IntersectionObserver(
+  (entries) => {
+    const entry = entries[0];
+    if (entry !== null) {
+      if (entry.isIntersecting) {
+        document.body.classList.remove("sticky");
+      } else {
+        document.body.classList.add("sticky");
+      }
+    }
+  },
+  {
+    // In the viewport
+    root: null,
+    threshold: 0,
+    rootMargin: "-80px",
+  }
+);
+obs.observe(sectionHeroEl);
