@@ -11,4 +11,4 @@ The website was build as part of an HTML/CSS course.
 - Fully responsive design
 - Utilized grid, flexbox and absolute positioning
 
-<img src="img/screenshot.png" style="max-width:100%; margin-top: 2.4rem;" />
+<img src="img/screenshot.webp" style="max-width:100%; margin-top: 2.4rem;" />
